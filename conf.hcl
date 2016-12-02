@@ -16,8 +16,6 @@ marathon {
 lapse=5
 dieAfter = 300
 haproxy {
-	user =     "admin"
-	password = "admin"
         port = 9090
 	endPoint = "haproxy?stats"
 }
